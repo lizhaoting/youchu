@@ -1,0 +1,8 @@
+node_modules/*
+dist/*
+config/*
+build/*
+scripts/*
+src/serviceWorker.js
+src/utils/console.js
+assets/
