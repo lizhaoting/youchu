@@ -83,6 +83,7 @@ module.exports = {
     extensions: ['.mjs', '.web.js', '.js', '.json', '.web.jsx', '.jsx'],
     alias: {
       'react-native': 'react-native-web',
+      'assets': paths.assets
     },
     plugins: [
       PnpWebpackPlugin,
@@ -192,7 +193,7 @@ module.exports = {
               loader: 'less-loader',
               options: {
                 modifyVars: {
-                  'primary-color': '#1DA57A',
+                  'primary-color': '#57BC4C',
                   'link-color': '#1DA57A',
                   'border-radius-base': '2px',
                 },

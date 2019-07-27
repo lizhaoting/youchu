@@ -1,0 +1,55 @@
+.container {
+    padding-top: 12px;
+    background: url('../../assets/images/public/background.jpg') no-repeat;
+    min-height: 600px;
+    margin: 50px 0;
+    text-align: center;
+    padding: 20px 20%;
+}
+.titleContainer {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0px;
+}
+.title {
+    display: inline;
+    font-size: 24px;
+    line-height: 30px;
+    color: #555;
+}
+.description {
+    display: inline;
+    font-size: 14px;
+    color: #bbb;
+    line-height: 26px;
+    margin-left: 10px;
+}
+.flex {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 20px;
+}
+.left {
+    border-radius: 5px;
+    box-shadow: 0 0 0 20px #e5f1e8;
+    transform: translate3d(0, 0, 0);
+    width: 480px;
+    position: relative;
+}
+
+.right {
+    text-align: left;
+
+    .className {
+        font-weight: 600;
+        color: #57bc4c;
+        font-size: 20px;
+    }
+
+    .classDescription {
+        font-size: 13px;
+        height: 52px;
+        overflow: hidden;
+        color: #999;
+    }
+}

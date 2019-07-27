@@ -1,4 +1,4 @@
-import * as types from '../constants';
+import types from '../constants';
 
 const defaultStore = {
   userName: 'demo user',

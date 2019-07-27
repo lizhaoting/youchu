@@ -1,0 +1,24 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+
+    .antCard {
+        width: 30%;
+        overflow: hidden;
+
+        > div {
+            padding: 0;
+        }
+
+        img {
+            width: 100%;
+            transition: all 0.3s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

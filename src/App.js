@@ -6,12 +6,12 @@ import history from './history';
 import store from './store/index';
 import ExplandRouters from './explandRouters';
 
-const HelloWord = lazy(() => import('./containers/HelloWord'));
+const Index = lazy(() => import('./pages/Index'));
 
 const routes = [
   {
-    path: '/hello',
-    component: HelloWord,
+    path: '/',
+    component: Index,
     routes: [],
   },
 ];

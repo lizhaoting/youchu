@@ -1,4 +1,4 @@
-import * as types from '../constants';
+import types from '../constants';
 import login from '../services/login';
 
 const loginTypes = [

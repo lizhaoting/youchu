@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import HelloWordComponent from '../pages/HelloWord';
-import * as actions from '../actions';
+import actions from '../actions';
 
 function mapStateToProps() {
   return {
