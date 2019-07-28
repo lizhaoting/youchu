@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'antd';
 
 class HelloWord extends Component {
   shouldComponentUpdate() {
@@ -10,7 +11,7 @@ class HelloWord extends Component {
     return (
       <>
         <div>Hello Word</div>
-        <button type="submit" onClick={getUser}>getUser</button>
+        <Button type="submit" onClick={getUser}>getUser</Button>
       </>
     );
   }
