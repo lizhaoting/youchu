@@ -1,3 +1,4 @@
 import * as userConstans from './user';
+import * as headerConstans from './header';
 
-export default { ...userConstans };
+export default { ...userConstans, ...headerConstans };
