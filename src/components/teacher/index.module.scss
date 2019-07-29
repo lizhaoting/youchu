@@ -1,0 +1,68 @@
+.container {
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px;
+
+    .antdCard {
+        overflow: hidden;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        width: 600px;
+        transition: all 0.36s ease;
+
+        &:hover {
+            background-color: #57BC4C;
+
+            p, span {
+                color: #FFF !important;
+            }
+
+            .hoverContainer {
+                height: 230px;
+                transition: all 0.36s ease;
+            }
+        }
+    }
+
+    .teacherBox {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+    
+        .teacherName {
+            font-size: 20px;
+            color: #333;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    
+        .teacherClass {
+            font-size: 14px;
+            color: #868585;
+            margin-left: 8px;
+        }
+    }
+}
+
+.title {
+    display: inline;
+    font-size: 24px;
+    line-height: 30px;
+    color: #555;
+}
+
+.description {
+    display: inline;
+    font-size: 14px;
+    color: #bbb;
+    line-height: 26px;
+    margin-left: 10px;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 40px;
+}

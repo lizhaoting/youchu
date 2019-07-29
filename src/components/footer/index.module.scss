@@ -1,0 +1,14 @@
+.container {
+    padding-top: 20px;
+    padding: 5%;
+    background: #F5F7FA;
+
+    .flex {
+        display: flex;
+        justify-content: space-around;
+
+        p {
+            width: 30%;
+        }
+    }
+}

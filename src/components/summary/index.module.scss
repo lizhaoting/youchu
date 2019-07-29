@@ -1,0 +1,31 @@
+.container {
+    margin-top: 20px;
+    height: 628px;
+    background: url('../../assets/images/summary/1.png') no-repeat;
+    cursor: pointer;
+
+    .header {
+        height: 408px;
+    }
+
+    .footer {
+        height: 220px;
+        background-color: #57BC4C;
+        background-image: url('../../assets/images/summary/1.png');
+        background-position-y: -408px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        span {
+            font-size: 64px;
+            font-weight: 600;
+            color: #FFF;
+        }
+
+        p {
+            font-size: 16px;
+            color: #FFF;
+        }
+    }
+}

@@ -11,7 +11,7 @@ class Banner extends Component {
 
   render() {
     return (
-      <Carousel className={styles.container}>
+      <Carousel autoplay className={styles.container}>
         <div>
           <img src={Banner1} alt="banner1" />
         </div>
