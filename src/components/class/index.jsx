@@ -17,10 +17,10 @@ class Class extends Component {
     // const { searchParam, changeSearchParams, handleSearch } = this.props;
     return (
       <>
-        <p className={styles.titleContainer}>
+        <div className={styles.titleContainer}>
           <p className={styles.title}>课程体系</p>
           <p className={styles.description}>直播授课 / 1对1批改 / 及时答疑 / 无限回放</p>
-        </p>
+        </div>
         <div className={styles.container}>
           <Card
             className={styles.antCard}

@@ -1,0 +1,30 @@
+.container {
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 40px;
+}
+.right {
+    p {
+        font-size: 13px;
+        line-height: 26px;
+        color: #999;
+    }
+
+    button {
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.05);
+        background-color: #57bc4c;
+        color: #fff;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 53px;
+        border-radius: 28px;
+        padding: 0 52px;
+        height: unset;
+    }
+}
+.title {
+    font-size: 36px !important;
+    color: #555 !important;
+}

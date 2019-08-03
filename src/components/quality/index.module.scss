@@ -1,0 +1,52 @@
+.container {
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px;
+    flex-wrap: wrap;
+    background: url('../../assets/images/quality/background.png') no-repeat;
+    padding-bottom: 150px;
+
+    .antCard {
+        width: 25%;
+        overflow: hidden;
+        flex-shrink: 0;
+        margin: 0 4%;
+        margin-bottom: 30px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        text-align: center;
+        
+        p:nth-child(1) {
+            font-size: 17px;
+            color: #555;
+        }
+
+        p:nth-child(2) {
+            transition: all 0.36s ease;
+            font-size: 13px;
+            line-height: 26px;
+            height: 52px;
+            overflow: hidden;
+            color: #999;
+        }
+    }
+}
+.titleContainer {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 40px;
+}
+.title {
+    display: inline;
+    font-size: 24px;
+    line-height: 30px;
+    color: #555;
+}
+.description {
+    display: inline;
+    font-size: 14px;
+    color: #bbb;
+    line-height: 26px;
+    margin-left: 10px;
+}

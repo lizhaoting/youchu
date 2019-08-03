@@ -271,6 +271,24 @@ module.exports = {
             ),
           },
           {
+            test: /\.less$/,
+            use: [{
+              loader: 'style-loader',
+            }, {
+              loader: 'css-loader',
+            }, {
+              loader: 'less-loader',
+              options: {
+                modifyVars: {
+                  'primary-color': '#57BC4C',
+                  'link-color': '#1DA57A',
+                  'border-radius-base': '2px',
+                },
+                javascriptEnabled: true,
+              },
+            }]
+          },
+          {
             loader: require.resolve('file-loader'),
             exclude: [/\.(js|mjs|jsx)$/, /\.html$/, /\.json$/],
             options: {

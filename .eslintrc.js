@@ -5,7 +5,8 @@ module.exports = {
         "jsx-a11y/href-no-hash": 0,
         "linebreak-style": 0,
         "react/prop-types": 0,
-        "no-debugger": 0
+        "no-debugger": 0,
+        "max-len": 0
     },
     "env": {
         "es6": true,
