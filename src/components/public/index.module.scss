@@ -2,9 +2,9 @@
     padding-top: 12px;
     background: url('../../assets/images/public/background.jpg') no-repeat;
     min-height: 600px;
-    margin: 50px 0;
     text-align: center;
-    padding: 20px 20%;
+    margin: 20px 2%;
+    padding: 2%;
 }
 .titleContainer {
     display: flex;
@@ -28,17 +28,33 @@
     display: flex !important;
     justify-content: space-between;
     padding: 20px;
+
+    @media only screen and (max-width: 640px) {
+        display: block !important;
+    }
 }
 .left {
     border-radius: 5px;
     box-shadow: 0 0 0 20px #e5f1e8;
     transform: translate3d(0, 0, 0);
-    width: 480px;
+    // width: 480px;
     position: relative;
+
+    img {
+        width: 100%;
+    }
 }
 
 .right {
     text-align: left;
+    margin-top: 4%;
+    padding: 2%;
+    margin-left: 4%;
+
+    @media only screen and (max-width: 640px) {
+        margin-left: 0%;
+        padding-left: 0;
+    }
 
     .className {
         font-weight: 600;

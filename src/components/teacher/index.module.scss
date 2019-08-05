@@ -10,6 +10,7 @@
         box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
         width: 600px;
         transition: all 0.36s ease;
+        margin: 2%;
 
         &:hover {
             background-color: #57BC4C;
@@ -29,6 +30,10 @@
         display: flex;
         justify-content: space-evenly;
         padding: 20px;
+
+        @media only screen and (max-width: 640px) {
+            display: block !important;
+        }
     
         .teacherName {
             font-size: 20px;

@@ -2,11 +2,15 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    margin: 20px 40px;
+    margin: 20px 2%;
+
+    @media only screen and (max-width: 640px) {
+        display: block;
+    }
 
     .antCard {
-        width: 30%;
         overflow: hidden;
+        margin: 2% 2%;
 
         > div {
             padding: 0;

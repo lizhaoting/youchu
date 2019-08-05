@@ -33,7 +33,7 @@ class Header extends Component {
         <a href="/">
           <img src={Logo} height="44" alt="logo" />
         </a>
-        <div>
+        <div className={styles.searchContainer}>
           <Search
             value={searchParam}
             allowClear
@@ -41,6 +41,7 @@ class Header extends Component {
             size="large"
             enterButton="搜索"
             onSearch={handleSearch}
+            placeholder="请输入"
           />
         </div>
       </div>

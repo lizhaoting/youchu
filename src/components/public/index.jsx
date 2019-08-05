@@ -18,11 +18,12 @@ class Public extends Component {
           <p className={styles.title}>免费直播课</p>
           <p className={styles.description}>激发学习热情，唤启更好的自己</p>
         </div>
-        <Carousel autoplay dots={false}>
+        <Carousel dots={false}>
           <div>
             <div className={styles.flex}>
               <div className={styles.left}>
                 <img src={Public1} alt="1" />
+                {/* <video width="100%" controls src="https://cdn.youchuedu.com/v0001.mp4" /> */}
               </div>
               <div className={styles.right}>
                 <div>

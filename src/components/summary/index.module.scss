@@ -4,6 +4,10 @@
     background: url('../../assets/images/summary/1.png') no-repeat;
     cursor: pointer;
 
+    @media only screen and (max-width: 640px) {
+        display: none;
+    }
+
     .header {
         height: 408px;
     }

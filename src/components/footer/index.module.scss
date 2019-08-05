@@ -7,8 +7,17 @@
         display: flex;
         justify-content: space-around;
 
+        @media only screen and (max-width: 640px) {
+            display: block;
+            text-align: center;
+        }
+
         p {
             width: 30%;
+
+            @media only screen and (max-width: 640px) {
+                width: 100%;
+            }
         }
     }
 }

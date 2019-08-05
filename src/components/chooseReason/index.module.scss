@@ -4,8 +4,25 @@
     align-items: center;
     justify-content: space-evenly;
     margin: 0 40px;
+
+    @media only screen and (max-width: 640px) {
+        display: block !important;
+    }
+}
+.left {
+    img {
+        width: 100%;
+    }
 }
 .right {
+    margin-left: 2%;
+
+    @media only screen and (max-width: 640px) {
+        margin-left: 0%;
+        margin-top: 2%;
+        text-align: center;
+    }
+
     p {
         font-size: 13px;
         line-height: 26px;

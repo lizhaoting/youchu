@@ -35,7 +35,7 @@ class Quality extends Component {
               <img src={Quality1} alt="1" />
             </>}
           >
-            <p>获牛津大学出版社独家在线授权教材</p>
+            <p>在线授权教材</p>
             <p>一站式学习体验 / 知心智能推送系统独家授权TPO考前预测直播循环直播课程 ...</p>
           </Card>
           <Card
@@ -71,7 +71,7 @@ class Quality extends Component {
               <img src={Quality4} alt="1" />
             </>}
           >
-            <p>数学奥林匹克高级教练金荣</p>
+            <p>奥林匹克高级教练</p>
             <p>一站式学习体验 / 知心智能推送系统独家授权TPO考前预测直播循环直播课程 ...</p>
           </Card>
           <Card
@@ -83,7 +83,7 @@ class Quality extends Component {
               <img src={Quality5} alt="1" />
             </>}
           >
-            <p>成立美国学术顾问委员会</p>
+            <p>美国学术顾问委员会</p>
             <p>答题方法技巧讲解+真题解析+优学教育一线新概念名师带你突破BEC备考困境 ...</p>
           </Card>
           <Card
