@@ -57,7 +57,7 @@
     "postcss-safe-parser": "4.0.1",
     "prismjs": "^1.15.0",
     "react": "^16.6.0",
-    "react-dev-utils": "^6.0.5",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.6.0",
     "react-redux": "6.0.0",
     "react-router": "^4.3.1",
